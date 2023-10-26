@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import HeroContent from "./_components/HeroContent";
 
 export default function Hero() {
@@ -10,6 +11,9 @@ export default function Hero() {
                     </h2>
                 </div>
                 <HeroContent />
+                <div className="text-center">
+                    <Button variant={"themePrimary"}>NEW SEARCH</Button>
+                </div>
             </div>
         </section>
     );

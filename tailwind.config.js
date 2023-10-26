@@ -48,12 +48,14 @@ module.exports = {
                 "theme-primary": "#004E89",
                 "theme-secondary": "#005C8A",
                 "theme-black": "#111415",
+                "theme-yellow": "#D5AD36",
             },
 
             backgroundColor: {
                 "theme-primary": "#004E89",
                 "theme-secondary": "#005C8A",
                 "theme-black": "#111415",
+                "theme-yellow": "#D5AD36",
             },
             borderRadius: {
                 lg: "var(--radius)",

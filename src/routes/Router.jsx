@@ -8,9 +8,11 @@ export default function Router() {
         <>
             <HeaderTopBar />
             <Header />
-            <Routes>
-                <Route path="/" element={<Home />} />
-            </Routes>
+            <main className="h-full bg-[url('/site-bg.jpg')]">
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                </Routes>
+            </main>
         </>
     );
 }

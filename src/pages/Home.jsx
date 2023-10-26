@@ -1,5 +1,9 @@
-import { Button } from "@/components/ui/button";
+import Hero from "@/components/pages/home/Hero";
 
 export default function Home() {
-    return <div></div>;
+    return (
+        <>
+            <Hero />
+        </>
+    );
 }

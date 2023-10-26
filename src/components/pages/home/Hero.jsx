@@ -12,7 +12,12 @@ export default function Hero() {
                 </div>
                 <HeroContent />
                 <div className="text-center">
-                    <Button variant={"themePrimary"}>NEW SEARCH</Button>
+                    <Button
+                        className="w-full lg:w-auto"
+                        variant={"themePrimary"}
+                    >
+                        NEW SEARCH
+                    </Button>
                 </div>
             </div>
         </section>

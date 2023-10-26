@@ -12,6 +12,12 @@ body {
     font-weight: 400;
 }
 
+@layer components {
+    .container {
+        @apply max-w-[1248px];
+    }
+}
+
 @layer base {
     :root {
         --background: 0 0% 100%;
